@@ -145,18 +145,39 @@ a{
 }
 
 main .container{
-  background-color: royalblue;
-  border: 2px solid grey;
-  /* debug */
-  width: 100%;
   height: 280px;
 }
 
-main .container .section-inner{
-  background-color: crimson;
-  border: 2px solid black;
+main .container.two, .four{
+  background-color: #F6F6F6;
+}
+
+main .wavy{
+  background-image: url(../img/myWave.svg);  
+  
+  background-repeat: no-repeat;
+  
   /* debug */
-  height: 280px;
+  width: 100%;
+  height: 100px;
+  /* height: 280px; */
+}
+
+main .wavy.variant{
+  transform: rotateX(180deg);
+  background-position: bottom;
+  
+}
+
+main .container.wavy.last{
+  background-position: top;
+}
+
+main .container .section-inner{
+  /* background-color: crimson;
+  border: 2px solid black; */
+  /* debug */
+  /* height: 280px; */
   flex-direction: row;
 }
 
