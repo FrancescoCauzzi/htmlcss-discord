@@ -43,7 +43,7 @@ nav .logo, .footer-bottom .logo{
   width: 20%;
 }
 
-nav a .logo:hover, .footer-bottom .logo:hover{
+nav .logo:hover, .footer-bottom .logo:hover{
   cursor: pointer;
 }
 
