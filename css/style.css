@@ -40,10 +40,13 @@ nav .logo, .footer-bottom .logo{
   background-repeat: no-repeat;
   background-position: left;
   height: 80px;
-  /* debug */
-  
   width: 20%;
 }
+
+nav a .logo:hover, .footer-bottom .logo:hover{
+  cursor: pointer;
+}
+
 
 nav .log-in{
   
@@ -216,7 +219,8 @@ main .container .section-inner .section-image{
 }
 
 section.section-inner.reverse{
-  flex-direction: row-reverse;  
+  flex-direction: row-reverse; 
+  justify-content: f; 
 }
 
 section.section-inner.bottom{
@@ -324,6 +328,10 @@ footer{
 
 .footer-bottom .sign-in button{  
   background-color: #7289DA;
-  color: white;
-  
+  color: white;  
+}
+
+button:hover{
+  cursor: pointer;
+
 }
